@@ -1,12 +1,9 @@
 .container-footer {
+    color: white;
     text-align: center;
     font-size: 1.5rem;
-    background-color: green;
+    background-color: black;
     padding: 2rem;
-}
-
-.container-footer a {
-    color: black;
 }
 
 .social-links {

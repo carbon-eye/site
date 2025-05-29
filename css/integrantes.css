@@ -1,0 +1,36 @@
+#intro {
+    color: white;
+    text-align: center;
+    font-size: 3.5rem;
+    padding-top: 4rem;
+}
+
+#fotos {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    text-align: center;
+    padding: 3rem;
+    margin: 4rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 1);
+}
+
+.card:hover {
+    z-index: 999;
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+.pfp {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.social-media img {
+    width: 3rem;
+}
+
