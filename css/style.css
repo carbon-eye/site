@@ -3,13 +3,16 @@
     padding: 0;
     box-sizing: border-box;
 
-    font-family: sans-serif;
     text-decoration: none;
     list-style: none;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
 }
 
 html {
     font-size: 62.5%;
     height: 100%;
-    background-color: #3D7A4D;
-};
+    background-color: white;
+}
