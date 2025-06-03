@@ -1,0 +1,39 @@
+.hero {
+    background-image: url(../images/hero_image.png);
+    background-position: center;
+    background-size: cover;
+    height: 610px;
+}
+
+#hero-text {
+    padding: 4rem 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#hero-text h1 {
+    line-height: 1.3;
+}
+
+#dynamic-word {
+    color: #1a7a07;
+}
+
+
+
+#hero-text p {
+    margin-top: 10px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+#hero-text a {
+    display: inline-block;
+
+    border-radius: 4rem;
+    padding: 1rem 2rem;
+    margin-top: 4rem;
+    background-color: #1a7a07;
+    color: white;
+    font-weight: 350;
+}
