@@ -1,0 +1,28 @@
+.product {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.product img {
+    width: 200px;
+}
+
+.specs {
+    padding: 4rem;
+}
+
+.specs h2 {
+    font-size: 2rem;
+}
+
+.specs ul {
+    padding-top: 1rem;
+    text-align: start;
+    font-size: 1.5rem;
+}
+
+.specs li {
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
