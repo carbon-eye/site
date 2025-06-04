@@ -15,6 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 
     <script src="../js/nav-toggle.js" defer></script>
+    <script src="../js/quantity-control.js" defer></script>
 </head>
 
 <body>
@@ -37,16 +38,19 @@
 
     <main>
         <section class="product">
+            <p>Detector de CO₂</p>
             <img id="product-image" src="../images/co2-sensor.png" alt="Sensor de CO₂, caixa metálica retangular com painel solar em cima">
             <div id="purchase-section">
                 <label for="quantity">Quantidade:</label>
                 <input type="number" id="quantity" name="quantity" min="1" value="1">
                 <div id="arrow">
-                    <p>&#9664</p>
-                    <p>&#9654</p>
+                    <button>&#9664</button>
+                    <button>&#9654</button>
                 </div>
             </div>
-            <span class="total-label">R$ <span id="total-price">500,00</span></span>
+            
+            <a href="#" class="total-label">R$ <span id="total-price">500,00</span></a>
+            <a href="#" class="purchase-button">COMPRAR</a>
         </section>
 
         <section class="specs">
