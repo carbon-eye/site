@@ -28,13 +28,37 @@ main p {
     padding: 0 2rem;
 }
 
-.faq li {
+.faq-item h2 {
+    position: relative;
+    padding-right: 2rem;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.faq-item {
     padding: 1rem 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.5);
 }
 
+.arrow {
+    position: absolute;
+    right: 0;
+}
+
+.faq-item.open .arrow {
+    transform: rotate(180deg);
+}
+
 .faq h2 {
     font-size: 2rem;
+}
+
+.faq-answer {
+    display: none;
+}
+
+.faq-item.open .faq-answer {
+    display: block;
 }
 
 .contact-us {
