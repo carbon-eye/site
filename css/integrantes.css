@@ -38,3 +38,9 @@ h2 {
     color: black;
     font-size: 1.8rem;
 }
+
+@media (min-width: 600px) {
+    .membros {
+        display: flex;
+    }
+}
