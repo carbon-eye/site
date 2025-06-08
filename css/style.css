@@ -17,3 +17,14 @@ html {
     background-color: white;
     scroll-behavior: smooth;
 }
+
+@media (min-width: 992px) {
+    main {
+        padding: 0 20vw;
+    }
+
+    .hero {
+        margin-left: -20vw;
+        margin-right: -20vw;
+    }
+}
