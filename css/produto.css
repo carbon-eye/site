@@ -101,3 +101,9 @@ input[type=number]::-webkit-outer-spin-button {
         width: 250px;
     }
 }
+
+@media (min-width: 1300px) {
+    .product img {
+        width: 300px;
+    }
+}
