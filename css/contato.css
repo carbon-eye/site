@@ -45,3 +45,21 @@ form {
     border-radius: 4rem;
     border: none;
 }
+
+.form-message {
+    display: none;
+    text-align: center;
+    padding: 4rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+.form-message.error {
+    color: red;
+    display: block;
+}
+
+.form-message.success {
+    color: #1a7a07;
+    display: block;
+}
